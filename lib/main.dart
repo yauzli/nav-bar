@@ -12,12 +12,12 @@ void main() {
       home: MiCasa()));
 }
 
-class MiCasa extends StatefulWidget {
+class MiCrz extends StatefulWidget {
   @override
-  MiCasaState createState() => MiCasaState();
+  MiCrz State createState() => MiCasaState();
 } //fin clase mi casa
 
-class MiCasaState extends State<MiCasa> with SingleTickerProviderStateMixin {
+class MiCrz State extends State<MiCasa> with SingleTickerProviderStateMixin {
   TabController controller;
   @override
   void initState() {
