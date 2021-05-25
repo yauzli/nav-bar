@@ -9,15 +9,15 @@ void main() {
       // Title
       title: "Usando Tabs",
       // Home
-      home: MiCasa()));
+      home: MiCrz()));
 }
 
 class MiCrz extends StatefulWidget {
   @override
-  MiCrz State createState() => MiCasaState();
+  MiCrz State createState() => MiCrzState();
 } //fin clase mi casa
 
-class MiCrz State extends State<MiCasa> with SingleTickerProviderStateMixin {
+class MiCrz State extends State<MiCrz> with SingleTickerProviderStateMixin {
   TabController controller;
   @override
   void initState() {
